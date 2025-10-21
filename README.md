@@ -15,3 +15,5 @@ In this project, I will do well to chronicle all the commands and analysis done 
 
 ### Data Sources.
 Most of the data for SQL are imported, however some queries will be written out here to show how some table are created.
+### Tool Used.
+- Ms SSMS [Download Here](https://aka.ms/ssms/21/release/vs_SSMS.exe)

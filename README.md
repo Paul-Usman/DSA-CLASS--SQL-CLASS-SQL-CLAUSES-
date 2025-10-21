@@ -42,3 +42,12 @@ salary decimal (10, 3)
 )
 INSERT INTO salary (Staffid, Firstname, LastName, department, salary)
 Values ('IM201','Thoby','Elumelu','Tech','150000.9786')
+create table payment(
+paymentid int identity (1,1) primary key,
+Account_no bigint not null,
+staffid int,
+Bank varchar (255) default 'Zenith Bank',
+Payment_method varchar (50) check (Payment_method= 'Cash' or Payment_method= 'Transfer')
+)
+INSERT INTO payment (Account_no, Staffid, payment_method)
+Values (3085640077,'IM201','Transfer')
